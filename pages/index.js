@@ -1,9 +1,9 @@
-import Navbar from "../components/Navbar"
-import Details from "../components/Details"
 import { useState, useEffect } from "react";
 import imageUrlBuilder from "@sanity/image-url";
+import Navbar from "../components/Navbar"
+import Details from "../components/Details"
 
-const index = ({posts}) => {
+const Home = ({posts}) => {
   const [mappedPosts, setMappedPosts] = useState([]);
 
   useEffect(() => {
@@ -33,7 +33,7 @@ const index = ({posts}) => {
   )
 }
 
-export default index;
+export default Home;
 
 export const getServerSideProps = async (pageContext) => {
   

@@ -1,6 +1,6 @@
+import { useState, useEffect } from "react"
 import imageUrlBuilder from "@sanity/image-url";
 import BlockContent from "@sanity/block-content-to-react";
-import { useState, useEffect } from "react"
 import styles from "../../styles/post.module.css"
 import Navbar from "../../components/Navbar"
 
