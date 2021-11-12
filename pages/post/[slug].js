@@ -5,7 +5,7 @@ import styles from "../../styles/post.module.css"
 import Navbar from "../../components/Navbar"
 
 
-export const Post = ({body, title, image}) => {
+const Post = ({body, title, image}) => {
     const [imageUrl, setImageUrl] = useState("")
 
     useEffect( () => {
