@@ -14,14 +14,14 @@ const index = ({posts}) => {
   const [mappedPosts, setMappedPosts] = useState([]);
 
   useEffect(() => {
-    if (posts.length) {
+    if (posts?.length) {
       const imgBuilder = imageUrlBuilder({
         projectId: "1djjbko7",
         dataset: "production",
       });
 
       setMappedPosts(
-        posts.map((p) => {
+        posts?.map((p) => {
           return {
             ...p,
             mainImage: imgBuilder.image(p.image).width().height(450),
