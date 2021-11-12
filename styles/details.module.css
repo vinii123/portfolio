@@ -1,0 +1,19 @@
+.main{
+    margin: auto;
+    margin-top: 50px;
+}
+.headingDetails{
+    text-align: center;
+}
+.paraDetails{
+    text-align: center;
+}
+.imageDetails{
+    width: auto;
+    height: 450px;
+    margin: auto;
+    display: flex;
+}
+.BlockContent{
+    text-align: center;
+}
